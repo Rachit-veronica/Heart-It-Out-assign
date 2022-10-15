@@ -95,6 +95,9 @@
   font-weight: 700;
   font-size: 16.2996px;
 }
+.radioBtnWorking{
+  color: #01818c;
+}
 @media (max-width: 500px) {
   .sec1 h1 {
     margin-top: 10%;
