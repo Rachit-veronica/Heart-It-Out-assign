@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sec2Style.css">   
+    <link rel="stylesheet" href="sec3Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    
+  </head>
+  <body>
+    <div class="outterpage">
+      <div class="navbar">
+        <div class="content">
+          <img src="./img/logo.svg" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="sec1">
+        <h1>SECTION I [15 points]</h1>
+        <div class="radioBtn1">
+          <p>Lorem ipsum dolor sit amet</p>
+          <div class="radioBtn1Input">
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+          </div>
+        </div>
+        <div class="DropDownOption">
+          <p>Lorem ipsum dolor sit amet</p>
+          <select>
+            <option id="option1"></option>
+            <option>Drop Down Option</option>
+            <option>Drop Down Option</option>
+            <option>Drop Down Option</option>
+            <option>Drop Down Option</option>
+          </select>
+        </div>
+        <div class="radioBtn2">
+          <p>Lorem ipsum dolor sit amet</p>
+          <div class="radioBtn1Input">
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+            <span
+              ><input type="radio" /><label>Radio Button Option</label></span
+            >
+          </div>
+        </div>
+        <button type="submit" onclick="alertFunction()">SUBMIT</button>
+      </div>
+      <div class="sec2">
+        <h1>SECTION II [20 points]</h1>
+        <div class="DropDownCard">
+          <div class="dropDownBtn">
+          <button type="click" onclick="btn1()">
+            Lorem ipsum dolor sit amet
+            <i class="fa fa-angle-down"></i>
+          </button>
+          </div>
+          <div id="cardLine1" class="cardsOutterBody working">
+            <div class="cards">
+              <div class="card1">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card1Item">
+                  <div class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                    <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                    </div>
+                    <div class="line"><img src="./img/line.svg"/></div>
+                  <div class="price">
+                    <h2>Price:<a>4999/-</a></h2>
+                    <p><a>4499/-</a></p>
+                  </div>
+                  </div>
+                  </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+              <div class="card2">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card2Item">
+                  <div id="card2" class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+                    <div class="price">
+                      <h2>Price:<a>9999/-</a></h2>
+                      <p><a>8999/-</a></p>
+                    </div>
+                    </div>
+                    </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+              <div class="card3">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card3Item">
+                  <div id="card3" class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+
+                    <div class="price">
+                      <h2>Price:<a>14999/-</a></h2>
+                      <p><a>12499/-</a></p>
+                    </div>
+                    </div>
+                    </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="DropDownCard">
+          <div class="dropDownBtn">
+            <button type="click" onclick="btn2()">
+              Lorem ipsum dolor sit amet
+              <i class="fa fa-angle-down"></i>
+            </button>
+            </div>
+          <div id="cardLine2" class="cardsOutterBody working">
+            <div class="cards">
+              <div class="card1">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card1Item">
+                  <div class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+
+                  <div class="price">
+                    <h2>Price:<a>4999/-</a></h2>
+                    <p><a>4499/-</a></p>
+                  </div>
+                  </div>
+                  </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+              <div class="card2">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card2Item">
+                  <div id="card2" class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                    <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                    </div>
+                    <div class="line"><img src="./img/line.svg"/></div>
+
+                    <div class="price">
+                      <h2>Price:<a>9999/-</a></h2>
+                      <p><a>8999/-</a></p>
+                    </div>
+                    </div>
+                    </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+              <div class="card3">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card3Item">
+                  <div id="card3" class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+
+                    <div class="price">
+                      <h2>Price:<a>14999/-</a></h2>
+                      <p><a>12499/-</a></p>
+                    </div>
+                    </div>
+                    </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="DropDownCard">
+          <div class="dropDownBtn">
+            <button type="click" onclick="btn3()">
+              Lorem ipsum dolor sit amet
+              <i class="fa fa-angle-down"></i>
+            </button>
+            </div>
+          <div id="cardLine3" class="cardsOutterBody working">
+            <div class="cards">
+              <div class="card1">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card1Item">
+                  <div class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+
+                  <div class="price">
+                    <h2>Price:<a>4999/-</a></h2>
+                    <p><a>4499/-</a></p>
+                  </div>
+                  </div>
+                  </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+              <div class="card2">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card2Item">
+                  <div id="card2" class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+
+                    <div class="price">
+                      <h2>Price:<a>9999/-</a></h2>
+                      <p><a>8999/-</a></p>
+                    </div>
+                    </div>
+                    </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+              <div class="card3">
+                <p id="mediaNone">Lorem ipsum</p>
+                <div class="card3Item">
+                  <div  id="card3"class="card1ItemText">
+                    <h4>Lorem ipsum</h4>
+                    <div class="mediaGrid">
+                    <div>
+                      <p>Lorem Ipsum ,Lorem Ipsum , Lorem Ipsum</p>
+                      </div>
+                      <div class="line"><img src="./img/line.svg"/></div>
+
+                    <div class="price">
+                      <h2>Price:<a>14999/-</a></h2>
+                      <p><a>12499/-</a></p>
+                    </div>
+                    </div>
+                    </div>
+                  <button onclick="alertFunction()">Click</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec3">
+        <h1>SECTION III [25 points]</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><div class="sec3Swiper">
+              <div class="sec3SwiperTitle"><h1>Lorem Ipsum</h1><img src="./img/sec3img.svg"/></div>
+              <div class="sec3Text"><div class="sec3Text2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p></div><img src="./img/sec3img2.svg" alt="" srcset=""></div>
+            </div></div>
+            <div class="swiper-slide"><div class="sec3Swiper">
+              <div class="sec3SwiperTitle"><h1>Lorem Ipsum</h1><img src="./img/sec3img.svg"/></div>
+              <div class="sec3Text"><div class="sec3Text2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p></div><img src="./img/sec3img2.svg" alt="" srcset=""></div>
+            </div>  </div>
+            <div class="swiper-slide"><div class="sec3Swiper">
+              <div class="sec3SwiperTitle"><h1>Lorem Ipsum</h1><img src="./img/sec3img.svg"/></div>
+              <div class="sec3Text"><div class="sec3Text2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p></div><img src="./img/sec3img2.svg" alt="" srcset=""></div>
+            </div>  </div>
+            <div class="swiper-slide"><div class="sec3Swiper">
+              <div class="sec3SwiperTitle"><h1>Lorem Ipsum</h1><img src="./img/sec3img.svg"/></div>
+              <div class="sec3Text"><div class="sec3Text2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p></div><img src="./img/sec3img2.svg" alt="" srcset=""></div>
+            </div>  </div>
+            <div class="swiper-slide"><div class="sec3Swiper">
+              <div class="sec3SwiperTitle"><h1>Lorem Ipsum</h1><img src="./img/sec3img.svg"/></div>
+              <div class="sec3Text"><div class="sec3Text2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p></div><img src="./img/sec3img2.svg" alt="" srcset=""></div>
+            </div>  </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button onclick="alertFunction()">Slider Button</button>
+    </div>
+    <div class="footer">
+      <img src="./img/logo.svg">
+      </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    const btn1 = () => {
+      let x = document.querySelector("#cardLine1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.querySelector(".fa-angle-down").classList.replace("fa-angle-down", "fa-angle-up");
+      } else {
+        x.style.display = "none";
+        document.querySelector(".fa-angle-up").classList.replace("fa-angle-up", "fa-angle-down");
+      }
+    };
+    const btn2 = () => {
+      let x = document.querySelector("#cardLine2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.querySelector(".fa-angle-down").classList.replace("fa-angle-down", "fa-angle-up");
+      } else {
+        x.style.display = "none";
+        document.querySelector(".fa-angle-up").classList.replace("fa-angle-up", "fa-angle-down");
+      }
+    };
+    const btn3 = () => {
+      let x = document.querySelector("#cardLine3");
+      let btn = document.querySelector(".fa-angle-down");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.querySelector(".fa-angle-down").classList.replace("fa-angle-down", "fa-angle-up");
+      } else {
+        x.style.display = "none";
+        document.querySelector(".fa-angle-up").classList.replace("fa-angle-up", "fa-angle-down");
+      }
+    };
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      const alertFunction = () =>{
+        alert("Button Clicked");
+      }
+      // let iconFunction = () =>{
+      //   let btn = document.querySelector(".fa-angle-up");
+      //   if(icon.classList.contains(".fa-angle-up")){
+      //     icon.classList.replace("fa-angle-up", "fa-angle-down");
+      //   }
+      // }
+    //   if (
+    //     document.querySelector(".cardsOutterBody").style.display == "block"
+    //   ) {
+    //     document.querySelector(".cardsOutterBody").style.display = "none";
+    //   } else {
+    //     document.querySelector(".cardsOutterBody").classList.add("working");
+    //     document
+    //       .querySelector(".cardsOutterBody")
+    //       .classList.remove("cardsOutterBody");
+    //   }
+    // };
+  </script>
+</html>

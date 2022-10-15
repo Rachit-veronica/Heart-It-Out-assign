@@ -1,0 +1,120 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.outterpage {
+  width: 100%;
+  height: min-content;
+}
+.navbar {
+  max-width: 100%;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.content img {
+  margin-top: 0.5%;
+}
+.sec1 {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  margin-top: 2%;
+}
+.sec1 h1 {
+  color: #01818c;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+.radioBtn1 {
+  margin-top: 5%;
+  text-align: start;
+}
+.radioBtn1Input {
+  display: grid;
+}
+.radioBtn1Input span {
+  margin: 1%;
+}
+.radioBtn1Input label {
+  margin-left: 1%;
+}
+.DropDownOption {
+  text-align: start;
+  margin-top: 3%;
+}
+.DropDownOption select {
+  width: 100%;
+  margin-top: 1%;
+  border: 1.01873px solid #c6c6c6;
+  border-radius: 9.16854px;
+  height: 42.79px;
+  color: #01818c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2996px;
+}
+.DropDownOption option {
+  color: #01818c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2996px;
+}
+.radioBtn2 {
+  margin-top: 5%;
+  text-align: start;
+}
+.radioBtn2Input {
+  display: grid;
+}
+.radioBtn2Input span {
+  margin: 1%;
+}
+.radioBtn2Input label {
+  margin-left: 1%;
+}
+.sec1 button {
+  margin-top: 2%;
+  background: #01818c;
+  box-shadow: 0px 2.03745px 3.05618px rgba(0, 0, 0, 0.15);
+  border-radius: 4.07491px;
+  width: 20%;
+  height: 51.6px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.2996px;
+}
+@media (max-width: 500px) {
+  .sec1 h1 {
+    margin-top: 10%;
+  }
+  .radioBtn1 p {
+    margin-top: 5%;
+  }
+  .radioBtn1Input {
+    margin-top: 5%;
+  }
+  .DropDownOption {
+    margin-top: 10%;
+  }
+  .DropDownOption select{
+    margin-top: 5%;
+  }
+  .radioBtn2{
+    margin-top: 10%;
+  }
+  .sec1 button{
+    margin-top: 10%;
+  }
+}

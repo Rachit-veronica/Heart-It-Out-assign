@@ -1,0 +1,256 @@
+.sec2 {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+.sec2 h1 {
+  color: #01818c;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+.cardsOutterBody {
+  display: none;
+}
+.working {
+  width: 100%;
+  height: min-content;
+}
+.cards {
+  display: grid;
+  max-width: 80%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: min-content;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.card1 {
+  max-width: 90%;
+  margin-right: 10%;
+}
+.card1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.3745px;
+  line-height: 24px;
+  color: #455a64;
+}
+.card2 {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.card2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.3745px;
+  line-height: 24px;
+  color: #455a64;
+}
+.card3 {
+  max-width: 90%;
+  margin-left: 10%;
+}
+.card3 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.3745px;
+  line-height: 24px;
+  color: #455a64;
+}
+.DropDownCard {
+  margin-top: 5%;
+}
+.dropDownBtn button {
+  width: 50%;
+  height: 65px;
+  border-radius: 6px;
+  background: #f4fbff;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+  margin-left: 25%;
+  color: #455a64;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.3745px;
+  margin-right: 25%;
+  align-items: center;
+}
+.fa-solid {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card1Item button {
+  background: #2b7397;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  height: 49px;
+}
+.card2Item button {
+  background: #32959d;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  height: 49px;
+  cursor: pointer;
+}
+.card3Item button {
+  text-align: center;
+  /* justify-content: center; */
+  background: #9c7777;
+  border-radius: 0px 0px 10px 10px;
+  border-color: #9c7777;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  height: 49px;
+  cursor: pointer;
+}
+.cardsOutterBody {
+  margin-top: 5%;
+}
+.card1ItemText {
+  border: 1px solid #2b7397;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 10%;
+}
+.card2ItemText {
+  border: 1px solid #2b7397;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 10%;
+}
+#card3 {
+  border: 1px solid #9c7777;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 10%;
+}
+#card2 {
+  border: 1px solid #32959d;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 10%;
+}
+.card1ItemText h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #3b3019;
+  margin-top: 5%;
+}
+.card1ItemText p {
+  margin-top: 5%;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #455a64;
+}
+.price h2 {
+  margin-top: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #455a64;
+}
+.price p {
+  margin-bottom: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #01818c;
+}
+.line {
+  display: none;
+}
+@media (max-width: 860px) {
+  .cards {
+    display: grid;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content min-content min-content;
+  }
+  .card1 {
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .card2 {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .card3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  #mediaNone {
+    display: none;
+  }
+  .mediaGrid {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: min-content;
+  }
+  .mediaGrid p,
+  h2 {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /* .price {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  } */
+  .line {
+    display: block;
+  }
+  .line img {
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    width: min-content;
+    justify-content: center;
+  }
+  .card1ItemText h4 {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .sec2 {
+    margin-top: 10%;
+  }
+}
