@@ -16,6 +16,7 @@
 .working {
   width: 100%;
   height: min-content;
+  background: #f7fbfd;
 }
 .cards {
   display: grid;
@@ -37,10 +38,16 @@
   line-height: 24px;
   color: #455a64;
 }
+.card1 button {
+  border-color: #01818c;
+}
 .card2 {
   max-width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+}
+.card2 button {
+  border-color: #01818c;
 }
 .card2 p {
   font-family: "Roboto";
